@@ -85,7 +85,6 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
 }
 
 .logo-span {
@@ -889,6 +888,16 @@ screen and (min-device-pixel-ratio: 2) {
         color: #404BBF;
     }
 
+    .mobile-current-page{
+        color: #404BBF;
+    }
+
+    .mobile-social-contact-wrapper{
+        gap: 48px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .mobile-contact-list{
         display: flex;
         flex-direction: column;
@@ -979,6 +988,10 @@ screen and (min-device-pixel-ratio: 2) {
 .page-nav-list {
     display: flex;
     gap: 40px;
+}
+
+.logo{
+    margin-right: 76px;
 }
 
 .page-nav-link {
